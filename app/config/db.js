@@ -1,6 +1,6 @@
 'user strict';
 
-var mysql = require('./node_modules/mysql');
+var mysql = require('../../node_modules/mysql');
 //heroku
 
 var connection = mysql.createConnection({
@@ -21,6 +21,6 @@ var connection = mysql.createConnection({
 */
 connection.connect(function(err) {
     if (err) throw err;
-});sas
+});
 
 module.exports = connection;
