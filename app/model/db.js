@@ -5,9 +5,9 @@ var mysql = require('mysql');
 //local mysql db connection
 var connection = mysql.createConnection({
     host     : 'us-cdbr-iron-east-02.cleardb.net',
-    user     : 'be7019ef7a9e39',
-    password : '03f23fcc',
-    database : 'heroku_84600b3cc05d1fb',
+    user     : 'b3e7cb0a79dc04',
+    password : '1514a61a',
+    database : 'heroku_5b9f51c996f2516',
 });
 
 connection.connect(function(err) {
