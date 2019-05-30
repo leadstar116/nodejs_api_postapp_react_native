@@ -1,5 +1,5 @@
 'user strict';
-var sql = require('./db.js');
+var sql = require('../config/db.js');
 
 //User object constructor
 var User = function (user) {
